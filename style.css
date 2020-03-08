@@ -5,14 +5,19 @@
 
 html,body {
     height: 100%;
+    font-family: 'Inter', sans-serif;
   }
 
 /* Header styling*/
 
 h1 {
-    font-size: large;
+    font-size: 3rem;
     text-align: center;
     padding-top: 30px;
+}
+
+h5 {
+    text-decoration: bold;
 }
 
 /* Nav Decoration */
@@ -33,10 +38,6 @@ h1 {
 
 .card-title {
     text-align: center;
-}
-
-.card {
-    border: 1px solid;
 }
 
 /* Footer styling */
