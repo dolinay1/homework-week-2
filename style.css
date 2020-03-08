@@ -1,10 +1,34 @@
-@media (min-width: 768px) {
-    .navbar-brand.abs
-        {
-            position: absolute;
-            width: 100%;
-            left: 0;
-            text-align: center;
-        }
-    }
-    
+/* Style sheet for Bootstrap page */
+
+
+/* Body styling */
+
+html,body {
+    height: 100%;
+  }
+
+/* Nav Decoration */
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.mynav a {
+    border-bottom:solid 1px transparent;
+}
+
+.mynav a:hover {
+    border-bottom: 1px solid #eeeeee;
+}
+
+/* Card Styling */
+
+.card {
+    border: 1px solid;
+}
+
+/* Footer styling */
+footer {
+    background: #222222;
+    padding: 30px;
+}
